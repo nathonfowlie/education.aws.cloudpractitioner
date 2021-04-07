@@ -5,7 +5,7 @@ name: Publish docs to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -30,5 +30,6 @@ jobs:
         run: pip install -r requirements.txt
       - name: Deploy docs
         run: |
-          mkdocs gh-deploy --force
+          mike deploy --update-aliases 2021 latest
+          mike set-default latest
 
