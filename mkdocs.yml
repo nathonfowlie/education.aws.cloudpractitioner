@@ -78,7 +78,6 @@ nav:
 
 plugins:
   - search:
-      prebuild_index: true
   - minify:
       minify_html: true
       minify_js: true
