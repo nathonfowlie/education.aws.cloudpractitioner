@@ -27,8 +27,8 @@ extra:
 
   # Enables GitHub Pages versioning, using the "mike" utility. Each published version will be put
   # in it's own sub-folder under /docs.
-  version:
-    provider: mike
+  #version:
+  #  provider: mike
 
 extra_javascript:
   - js/extra.js
