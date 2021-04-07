@@ -20,4 +20,5 @@ jobs:
         env:
           CUSTOM_DOMAIN: thedistinguished.engineer
           CONFIG_FILE: mkdocs.yml
+          PERSONAL_TOKEN: ${{ PERSONAL_TOKEN }}
 
