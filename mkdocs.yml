@@ -75,6 +75,7 @@ nav:
   - Home:
     - Overview: index.md
     - Identity & Access Management: iam.md
+    - EC2: ec2.md
   - Resources: resources.md
 
 plugins:
