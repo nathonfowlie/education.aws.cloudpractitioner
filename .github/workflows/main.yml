@@ -36,6 +36,6 @@ jobs:
           git remote add origin "https://x-access-token:${PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
       - name: Deploy docs
         run: |
-          mike deploy --force --update-aliases 2021 latest
-          mike set-default latest
+          mike deploy --push --force --update-aliases 2021 latest
+          mike set-default --push --force latest
 
