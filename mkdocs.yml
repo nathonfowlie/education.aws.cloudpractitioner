@@ -76,6 +76,7 @@ nav:
     - Overview: index.md
     - Identity & Access Management: iam.md
     - EC2: ec2.md
+    - EBS: ebs.md
   - Resources: resources.md
 
 plugins:
