@@ -1,10 +1,10 @@
 ---
 
 #  This is the name of the site as it'll appear in the address bar.
-site_name: "AWS Cloud Practitioner 2021"
+site_name: "AWS Cloud Practitioner"
 
 # Brief site description.
-site_description: "Study notes for aws cloud practitioner exam 2021"
+site_description: "Study notes for aws cloud practitioner exam"
 
 # Site author
 site_author: "Nathon Fowlie"
